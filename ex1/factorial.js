@@ -1,6 +1,6 @@
 
 function factorial(int) {
-    if(int == 1){
+        if(int == 0){
     
         return 1;
         } else {
