@@ -1,12 +1,15 @@
 
 function factorial(int) {
-    let result = 1;
-
+    if(int == 1){
     
-    for (let i = 1; i <= int; i++) {
+        return 1;
+        } else {
+        let result = 1;
+        for (let i = 1; i <= int; i++) {
         
-        result *= i;
-    }
+            result *= i;
+        }
 
-    return result;
+        return result;
+    }
 }
