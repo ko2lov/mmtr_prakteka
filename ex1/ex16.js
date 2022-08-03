@@ -12,7 +12,7 @@ function sumSothing(arr){
     return ((int1 + int2)/2) * n;
 }
 
-console.log(sumSothing([-1,10]));
+console.log(sumSothing([10,-1]));
 
 
 
